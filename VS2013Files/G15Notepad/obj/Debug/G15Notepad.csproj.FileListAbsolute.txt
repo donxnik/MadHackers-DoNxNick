@@ -1,0 +1,9 @@
+C:\Csharp\VS Github\G15Notepad_Project\VS2013Files\G15Notepad\bin\Debug\G15Notepad.exe.config
+C:\Csharp\VS Github\G15Notepad_Project\VS2013Files\G15Notepad\bin\Debug\G15Notepad.exe
+C:\Csharp\VS Github\G15Notepad_Project\VS2013Files\G15Notepad\bin\Debug\G15Notepad.pdb
+C:\Csharp\VS Github\G15Notepad_Project\VS2013Files\G15Notepad\obj\Debug\G15Notepad.csprojResolveAssemblyReference.cache
+C:\Csharp\VS Github\G15Notepad_Project\VS2013Files\G15Notepad\obj\Debug\G15Notepad.Form1.resources
+C:\Csharp\VS Github\G15Notepad_Project\VS2013Files\G15Notepad\obj\Debug\G15Notepad.Properties.Resources.resources
+C:\Csharp\VS Github\G15Notepad_Project\VS2013Files\G15Notepad\obj\Debug\G15Notepad.csproj.GenerateResource.Cache
+C:\Csharp\VS Github\G15Notepad_Project\VS2013Files\G15Notepad\obj\Debug\G15Notepad.exe
+C:\Csharp\VS Github\G15Notepad_Project\VS2013Files\G15Notepad\obj\Debug\G15Notepad.pdb

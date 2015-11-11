@@ -72,7 +72,7 @@
             this.quickDesktopToolStripMenuItem1,
             this.myComputerToolStripMenuItem1});
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -88,6 +88,7 @@
             this.myComputerToolStripMenuItem1.Name = "myComputerToolStripMenuItem1";
             this.myComputerToolStripMenuItem1.Size = new System.Drawing.Size(156, 22);
             this.myComputerToolStripMenuItem1.Text = "My Computer";
+            this.myComputerToolStripMenuItem1.Click += new System.EventHandler(this.myComputerToolStripMenuItem1_Click);
             // 
             // saveToolStripMenuItem
             // 
@@ -95,7 +96,7 @@
             this.quickDesktopToolStripMenuItem,
             this.myComputerToolStripMenuItem});
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.saveToolStripMenuItem.Text = "Save";
             // 
             // quickDesktopToolStripMenuItem
@@ -114,7 +115,7 @@
             // closeToolStripMenuItem
             // 
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.closeToolStripMenuItem.Text = "Close";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
