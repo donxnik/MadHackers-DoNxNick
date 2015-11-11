@@ -111,6 +111,7 @@
             this.myComputerToolStripMenuItem.Name = "myComputerToolStripMenuItem";
             this.myComputerToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.myComputerToolStripMenuItem.Text = "My Computer";
+            this.myComputerToolStripMenuItem.Click += new System.EventHandler(this.myComputerToolStripMenuItem_Click);
             // 
             // closeToolStripMenuItem
             // 

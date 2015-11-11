@@ -91,5 +91,33 @@ namespace G15Notepad
                 }
             }
         }
+
+        private void myComputerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Stream myStream = null;
+            SaveFileDialog theDialog = new SaveFileDialog();
+            theDialog.Title = "Save Text File";
+            theDialog.Filter = "text files|*.txt";
+            theDialog.InitialDirectory = @"C:\";
+            if (theDialog.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    if ((myStream = theDialog.OpenFile()) != null)
+                    {
+                        using (myStream)
+                        {
+                            // Insert code to read the stream here.
+                           
+                            richTextBox1.SaveFile(myStream, RichTextBoxStreamType.PlainText);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: Could not read file from disk. Original error: " + ex.Message);
+                }
+            }
+        }
     }
 }
